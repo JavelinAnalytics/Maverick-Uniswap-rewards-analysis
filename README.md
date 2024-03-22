@@ -5,7 +5,7 @@ the data and computes the fee elasticity of liquidity utilizing a logarithmic mo
 ## Requirements
 - Python >= 3.7
 - Dune API key
-- To install required libraries: `pip install -r requirements.txt`
+- To install required libraries: `pip install dune-client`
 ## Key
 The Dune API key used to access the queries is stored in a config file located in the same directory as the scripts.
 It has the following content:
