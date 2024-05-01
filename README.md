@@ -1,5 +1,5 @@
 # Project Liquidity Metrics
-Live blockchain Dune SQL query for accurately retrieving Total Value Locked data for two specific liquidity pools: (MKR/WETH UniV3 0.3%, LUSD/USDC Maverick 0.03%),
+Live blockchain Dune SQL query for accurately retrieving Total Value Locked for two specific liquidity pools: (MKR/WETH UniV3 0.3%, LUSD/USDC Maverick 0.03%),
 additionally retrieving daily generated fee revenues. Furthermore, a Data Science script is curated to standardize
 the data and compute the fee elasticity of liquidity (useful in determing efficacy of reward programs) utilizing a logarithmic regression model in Python, statistical significance is achieved.
 ## Requirements
