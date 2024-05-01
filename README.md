@@ -1,7 +1,7 @@
 # Project Liquidity Metrics
 This project designs a Dune SQL query for two specific liquidity pools: (MKR/WETH UniV3 0.3%, LUSD/USDC Maverick 0.03%),
 accurately querying live TVL data, as well as daily generated fee revenues. The second part of the project takes
-the data and computes the fee elasticity of liquidity utilizing a logarithmic model in Python.
+the data and computes the fee elasticity of liquidity (useful in determing efficacy of rewards) utilizing a logarithmic model in Python.
 ## Requirements
 - Python >= 3.7
 - Dune API key
